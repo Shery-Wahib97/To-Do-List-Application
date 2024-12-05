@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+}
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./Img/dgldbejjyofmcsfvkfd9.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+.caard {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    background-color:rgba(245, 224, 234, 0.7);
+    padding: 50px;
+}
+.caard h1 {
+    font-size: 3.5rem;
+}
+.caard form {
+    display: flex;
+    justify-content:space-between;
+    margin: 35px 0;
+}
+.caard input {
+    width: 65%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow:inset 9px 9px 12px -10px;
+}
+.caard input::placeholder {
+    padding-left: 10px;
+}
+.caard input:focus {
+    outline: none;
+}
+.caard form button {
+    padding: 5px 135px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8c9d;
+}
+.caard form button:hover {
+    font-weight: bold;
+    background-color: #d75a6d;
+}
+table .Actions button {
+    border: none;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-size: 13px;
+    color: #ffff;
+    font-weight: bold;
+    transition: all 400ms;
+}
+table .Actions button:hover {
+    color: white;
+}
+p {
+    margin: 40px 0;
+    width: 50%;
+    text-align: center;
+}
+
+ol .Actions .edit {
+    background-color: #e78e2e;
+}
+ol .Actions .edit.clicked {
+    background-color: #b96104;
+    color: white;
+}
+ol .Actions .delete {
+    background-color: #f8312a;
+}
+ol .Actions .delete.clicked {
+    background-color: #83100d;
+}
+ol .Actions .done {
+    background-color: #029e02;
+}
+ol .Actions .done.clicked {
+    background-color: #025602;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
